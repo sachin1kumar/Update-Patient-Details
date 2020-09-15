@@ -1,8 +1,9 @@
-package com.patient.registration.Patient.registration.microservice.repositories;
+package com.example.demo.repositories;
 
-import com.patient.registration.Patient.registration.microservice.model.PatientRegistration;
+import com.example.demo.model.PatientRegistration;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
 import java.math.BigInteger;
 
 @Repository
